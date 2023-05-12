@@ -528,3 +528,195 @@
         color: blueviolet;
         transition-duration: 500ms;
     }
+ @media screen and (max-width:600px) {
+                    .pic img {
+                        height: 30%;
+                        width: 50%;
+                        object-fit: flex;
+                        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.19);
+                        border: 1px black solid;
+                    }
+                    .content-text h1 {
+                        font-weight: 600;
+                        font-family: "Open Sans", sans-serif;
+                        COLOR: RED;
+                        font-size: 17px
+                    }
+                    .content-text p {
+                        margin-top: 5px;
+                        text-align: center;
+                        color: #636363;
+                        line-height: 1.8;
+                        font-size: 12px;
+                    }
+                    .donation-btn {
+                        /* border: 1px solid green; */
+                        display: flex;
+                        align-items: center;
+                        font-size: 11px;
+                    }
+                    .logo-img img {
+                        width: 0px;
+                        height: 0px;
+                        border-radius: 50%;
+                        border: 2px black solid;
+                    }
+                    ul li a {
+                        text-decoration: none;
+                        font-weight: bolder;
+                        color: black;
+                        font-size: 13px;
+                    }
+                    nav ul li {
+                        list-style: none;
+                        margin: 0px 4px;
+                    }
+                    nav ul {
+                        display: flex;
+                        /*  margin-right: -20px;
+                        */
+                    }
+                    nav {
+                        /* border: 1px solid blue; */
+                        display: flex;
+                        align-items: center;
+                        padding: 0px 10px;
+                    }
+                    .logo-name h1 {
+                        font-weight: 600;
+                        font-family: "Open Sans", sans-serif;
+                        font-size: 15px
+                    }
+                    .donation-btn a {
+                        /* border: 1px solid blue; */
+                        text-decoration: none;
+                        padding: 5px 10px;
+                        background-color: blueviolet;
+                        color: aliceblue;
+                        border-radius: 5px;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    }
+                    header {
+                        /* border: 1px solid red; */
+                        /* position: sticky; */
+                        /* top: 0; */
+                        display: flex;
+                        justify-content: space-evenly;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        width: 100%;
+                        height: 45px;
+                        background-color: pink;
+                    }
+                    .update {
+                        font-family: "Damion", serif;
+                        font-weight: 500;
+                        COLOR: blueviolet;
+                        font-size: 11px;
+                    }
+                    .card-image {
+                        /* border: 1px solid red; */
+                        height: 230px;
+                        width: 210px;
+                        border-radius: 10px;
+                        box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+                        margin-bottom: 10px;
+                        BACKGROUND-COLOR: blueviolet;
+                    }
+                    .card-image img {
+                        height: 330px;
+                        width: 210px;
+                        object-fit: cover;
+                        border-radius: 0px;
+                    }
+                    .content-cards {
+                        /* border: 1px solid rgb(206, 3, 165); */
+                        width: 90%;
+                        height: 67vh;
+                        display: flex;
+                        position: relative;
+                        margin-bottom: 10px;
+                        margin-left: 90px;
+                    }
+                    .card-content a img {
+                        /* border: 1px solid red; */
+                        height: 20px;
+                        width: 20px;
+                        margin-left: 0px;
+                    }
+                    .become-member-section {
+                        width: 100%;
+                        height: 45vh;
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("/img/pexels-josh-hild-2448749.jpg");
+                        background-size: cover;
+                        background-position: center;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding-top: 19px;
+                        margin-top: 0px
+                    }
+                    .become-member-section h3 {
+                        color: blueviolet;
+                        font-weight: 600;
+                        font-size: 20px;
+                        font-family: "Open Sans", sans-serif;
+                    }
+                    .become-member-section h1 {
+                        margin-top: 20px;
+                        width: 800px;
+                        text-align: center;
+                        color: white;
+                        font-size: 25px;
+                    }
+                    .become-member-section a {
+                        text-decoration: none;
+                        color: blueviolet;
+                        background-color: white;
+                        border-radius: 3px;
+                        padding: 13px 20px;
+                        margin-top: 20px;
+                        font-family: "Open Sans", sans-serif;
+                        font-size: 14px;
+                    }
+                    .part1 .part1-content h3 {
+                        line-height: 1.8;
+                        font-size: 25px;
+                        color: white;
+                    }
+                    .part1 .part1-content p {
+                        font-size: large;
+                        color: white;
+                        font-size: 15px;
+                        margin-left: 30px;
+                    }
+                    .part1 .part1-content {
+                        padding-left: 0px;
+                        margin-left: 70px;
+                        align-items: center;
+                    }
+                    .part2 {
+                        background-color: rgb(37, 26, 46);
+                        width: 100%;
+                        height: 40vh;
+                        display: flex;
+                        padding: 0px;
+                        padding-left: 0px;
+                    }
+                    .part2 .col-head h6 {
+                        font-weight: 600;
+                        font-size: 12px;
+                    }
+                    .col1-head img {
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                    }
+                    .col1-content {
+                        margin-top: 40px;
+                        font-size: 10px;
+                        margin-left: 5px;
+                    }
+                    .col4-row1 {
+                        font-size: 10px;
+                    }
+                }
