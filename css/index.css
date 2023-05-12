@@ -528,7 +528,7 @@
         color: blueviolet;
         transition-duration: 500ms;
     }
- @media screen and (max-width:600px) {
+ @media screen and (max-width:768px) {
                     .pic img {
                         height: 30%;
                         width: 50%;
