@@ -620,8 +620,8 @@
                         BACKGROUND-COLOR: blueviolet;
                     }
                     .card-image img {
-                        height: 330px;
-                        width: 210px;
+                        height: 430px;
+                        width: 300px;
                         object-fit: cover;
                         border-radius: 0px;
                     }
